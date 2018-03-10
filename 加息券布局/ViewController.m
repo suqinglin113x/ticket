@@ -6,7 +6,9 @@
 //  Copyright © 2018年 苏庆林. All rights reserved.
 //
 
+
 #import "ViewController.h"
+#import "TicketsView.h"
 
 @interface ViewController ()
 
@@ -17,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
 
@@ -26,4 +30,11 @@
 }
 
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    NSArray *arr = @[@"哈客户", @"家看到", @"阿尔及",@"哈客户", @"阿尔及",@"哈客户", @"阿尔及"];
+    TicketsView *vi = [[TicketsView alloc] initWithArr:arr];
+    vi.center = self.view.center;
+    [self.view addSubview:vi];
+}
 @end

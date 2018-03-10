@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		87B0B6F42054070700422FEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B0B6F32054070700422FEE /* AppDelegate.m */; };
-		87B0B6F72054070700422FEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B0B6F62054070700422FEE /* ViewController.m */; };
 		87B0B6FA2054070700422FEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B0B6F82054070700422FEE /* Main.storyboard */; };
 		87B0B6FC2054070700422FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87B0B6FB2054070700422FEE /* Assets.xcassets */; };
 		87B0B6FF2054070700422FEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B0B6FD2054070700422FEE /* LaunchScreen.storyboard */; };
 		87B0B7022054070700422FEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B0B7012054070700422FEE /* main.m */; };
 		87B0B70C2054070800422FEE /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B0B70B2054070800422FEE /* _____Tests.m */; };
 		87B0B7172054070800422FEE /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B0B7162054070800422FEE /* _____UITests.m */; };
+		87B0B7292054078400422FEE /* TicketsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B0B7272054078400422FEE /* TicketsView.m */; };
+		87B0B72C205407A500422FEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B0B72B205407A500422FEE /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +39,6 @@
 		87B0B6EF2054070700422FEE /* 加息券布局.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "加息券布局.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87B0B6F22054070700422FEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87B0B6F32054070700422FEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		87B0B6F52054070700422FEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		87B0B6F62054070700422FEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		87B0B6F92054070700422FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87B0B6FB2054070700422FEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87B0B6FE2054070700422FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,10 @@
 		87B0B7122054070800422FEE /* 加息券布局UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "加息券布局UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87B0B7162054070800422FEE /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		87B0B7182054070800422FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87B0B7252054078300422FEE /* TicketsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketsView.h; sourceTree = "<group>"; };
+		87B0B7272054078400422FEE /* TicketsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketsView.m; sourceTree = "<group>"; };
+		87B0B72A205407A500422FEE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		87B0B72B205407A500422FEE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +104,12 @@
 		87B0B6F12054070700422FEE /* 加息券布局 */ = {
 			isa = PBXGroup;
 			children = (
+				87B0B72A205407A500422FEE /* ViewController.h */,
+				87B0B72B205407A500422FEE /* ViewController.m */,
+				87B0B7252054078300422FEE /* TicketsView.h */,
+				87B0B7272054078400422FEE /* TicketsView.m */,
 				87B0B6F22054070700422FEE /* AppDelegate.h */,
 				87B0B6F32054070700422FEE /* AppDelegate.m */,
-				87B0B6F52054070700422FEE /* ViewController.h */,
-				87B0B6F62054070700422FEE /* ViewController.m */,
 				87B0B6F82054070700422FEE /* Main.storyboard */,
 				87B0B6FB2054070700422FEE /* Assets.xcassets */,
 				87B0B6FD2054070700422FEE /* LaunchScreen.storyboard */,
@@ -265,8 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87B0B6F72054070700422FEE /* ViewController.m in Sources */,
 				87B0B7022054070700422FEE /* main.m in Sources */,
+				87B0B7292054078400422FEE /* TicketsView.m in Sources */,
+				87B0B72C205407A500422FEE /* ViewController.m in Sources */,
 				87B0B6F42054070700422FEE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
